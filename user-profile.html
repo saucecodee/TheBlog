@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="main.css">
+   <title>Blog</title>
+</head>
+
+<body>
+   <header>
+      <div class="wrap header">
+         <h2>BLOG</h2>
+         <div class="nav">
+            <a href="index.html"><span>Home</span></a>
+            <a href="sign-in.html"><span class="nav-button-block">Log out</span></a>
+            <div class="nav-user">
+               <img src="img/user.png" height="25" alt="">
+               <span>Sauce code</span>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <div class="wrap">
+      <div class="dash-top">
+         <img src="img/user.png" height="100" alt="">
+         <h2>Sauce code</h2>
+         <hr>
+         <div class="profile-nav">
+            <a href="author.html"><span>Posts</span></a>
+            <a href="dashboard.html"><span>Dashbord</span></a>
+            <a href="user-profile.html"><span class="active">Profile</span></a>
+         </div>
+      </div>
+      
+      <div class="form-wrap">
+         <h2 style="text-align: center">EDIT PROFILE</h2>
+         <form action="author.html" method="post" id="sign-form">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Re-enter Password">
+            <label for="pic">Upload a picture</label>
+            <input type="file" name="" id="pic">
+            <button type="submit" class="but">SAVE CHANGES</button>
+         </form>
+      </div>
+
+      <a href="create.html"><button class="but">Delete account</button></a>
+
+   </div>
+</body>
+
+</html>

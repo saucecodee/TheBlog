@@ -12,38 +12,38 @@
 <body>
    <header>
       <div class="wrap header">
-         <span>BLOG</span>
+         <h2>BLOG</h2>
          <div class="nav">
-            <a href="sign-in.html"><span class="nav-button-block">Sign up</span></a>
-            <a href="sign-in.html"><span>Log out</span></a>
-            <div>
-               <img src="/img/user.png" height="25" alt="">
-               <span>User</span>
+            <a href="index.html"><span>Home</span></a>
+            <a href="sign-in.html"><span class="nav-button-block">Log out</span></a>
+            <div class="nav-user">
+               <img src="img/user.png" height="25" alt="">
+               <span>Sauce code</span>
             </div>
          </div>
       </div>
-
    </header>
 
    <div class="wrap">
-      <div class="banner">
-         <img src="/img/user.png" height="100" alt="">
-         <h4>Sauce code</h4>
+      <div class="dash-top">
+         <img src="img/user.png" height="100" alt="">
+         <h2>Sauce code</h2>
+         <hr>
          <div class="profile-nav">
-            <span>Posts</span>
-            <span>Dashbord</span>
-            <span>Profile</span>
+            <a href="author.html"><span class="active">Posts</span></a>
+            <a href="dashboard.html"><span>Dashbord</span></a>
+            <a href="user-profile.html"><span>Profile</span></a>
          </div>
       </div>
 
-      <button>CREATE NEW POST</button>
+      <a href="create.html"><button class="but">CREATE NEW POST</button></a>
 
       <div class="card">
          <div class="card-content">
-            <img src="/img/test.jpg" height="200" alt="">
+            <img src="img/test.jpg" height="200" alt="">
             <div class="card-right">
                <div>
-                  <h2>Title</h2>
+                  <h2>Your title here</h2>
                   <p>
                      ontent Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora adipisci corporis
                      quidem in ad deserunt et ex. Ipsam itaque, aut sequi iusto qui ducimus doloribus nihil facilis
@@ -52,16 +52,40 @@
                </div>
                
                <div class="card-footer">
-                  <div class="footer-left">
-                     <img src="/img/user.png" height="25" alt="">
-                     <span>Author</span>
-                     <span>Date</span>
+                  <div class="card-footer-left">
+                     <img src="img/user.png" height="25" alt="">
+                     <span class="card-author">Sauce code </span>  
+                     <span class="card-date">on 19th May, 2019</span>
                   </div>
                   <a href="post.html"><button>Read more</button></a>
                </div>
             </div>
          </div>
       </div>
+      <div class="card">
+            <div class="card-content">
+               <img src="img/test.jpg" height="200" alt="">
+               <div class="card-right">
+                  <div>
+                     <h2>Something here</h2>
+                     <p>
+                        ontent Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora adipisci corporis
+                        quidem in ad deserunt et ex. Ipsam itaque, aut sequi iusto qui ducimus doloribus nihil facilis
+                        reprehenderit id.
+                     </p>
+                  </div>
+                  
+                  <div class="card-footer">
+                     <div class="card-footer-left">
+                        <img src="img/user.png" height="25" alt="">
+                        <span class="card-author">Someone </span>  
+                        <span class="card-date">- 19th May, 2019</span>
+                     </div>
+                     <a href="post.html"><button>Read more</button></a>
+                  </div>
+               </div>
+            </div>
+         </div>
    </div>
 </body>
 

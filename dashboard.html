@@ -12,73 +12,126 @@
 <body>
    <header>
       <div class="wrap header">
-         <span>BLOG</span>
+         <h2>BLOG</h2>
          <div class="nav">
-            <a href="sign-in.html"><span class="nav-button-block">Sign up</span></a>
-            <a href="sign-in.html"><span>Log out</span></a>
-            <div>
-               <img src="/img/user.png" height="25" alt="">
-               <span>User</span>
+            <a href="index.html"><span>Home</span></a>
+            <a href="sign-in.html"><span class="nav-button-block">Log out</span></a>
+            <div class="nav-user">
+               <img src="img/user.png" height="25" alt="">
+               <span>Sauce code</span>
             </div>
          </div>
       </div>
-
    </header>
 
    <div class="wrap">
-      <div class="banner">
-         <img src="/img/user.png" height="100" alt="">
-         <h4>Sauce code</h4>
+      <div class="dash-top">
+         <img src="img/user.png" height="100" alt="">
+         <h2>Sauce code</h2>
+         <hr>
          <div class="profile-nav">
-            <span>Posts</span>
-            <span>Dashbord</span>
-            <span>Profile</span>
+            <a href="author.html"><span>Posts</span></a>
+            <a href="dashboard.html"><span class="active">Dashbord</span></a>
+            <a href="user-profile.html"><span>Profile</span></a>
          </div>
       </div>
 
       <div class="dash-card-group">
          <div class="dash-card">
-            <h3>No. of Posts</h3>
-            <h1>20</h1>
+            <h4>Total Posts</h4>
+            <h1>73</h1>
          </div>
          <div class="dash-card">
-               <h3>No. of Drafts</h3>
-               <h1>26</h1>
-            </div>
+            <h4>Published Posts</h4>
+            <h1>47</h1>
+         </div>
+         <div class="dash-card">
+            <h4>Draft Posts</h4>
+            <h1>26</h1>
+         </div>
       </div>
 
-      <button>CREATE NEW POST</button>
+      <a href="create.html"><button class="but">CREATE NEW POST</button></a>
 
-      <h2>Posts</h2>
-      <table id="post">
-         <tr>
-            <th>#</th>
-            <th>Post</th>
-            <th>Date</th>
-            <th>Draft</th>
-            <th>Delete</th>
-            <th>View</th>
-            <th>Publish</th>
-         </tr>
-         <tr>
-            <td>#</td>
-            <td>Post</td>
-            <td>Date</td>
-            <td>Draft</td>
-            <td>Delete</td>
-            <td>View</td>
-            <td>Publish</td>
-         </tr>
-         <tr>
-            <td>#</td>
-            <td>Post</td>
-            <td>Date</td>
-            <td>Draft</td>
-            <td>Delete</td>
-            <td>View</td>
-            <td>Publish</td>
-         </tr>
-      </table>
+      <h2 style="margin: 20px 0;">Posts</h2>
+
+      <div style="overflow-x:auto;">
+         <table id="post">
+            <thead>
+               <th>#</th>
+               <th>Post</th>
+               <th>Date</th>
+               <th>Actions</th>
+            </thead>
+            <tr>
+               <td>1</td>
+               <td>A random post title and other posts</td>
+               <td>19th May, 2019</td>
+               <td>
+                  <button style="background: #39c92c">Draft</button>
+                  <button style="background: #2c36c9">Publish</button>
+                  <button style="background: #bdb10d">Edit</button>
+                  <button style="background: #c92c2c">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>A random post</td>
+               <td>19th May, 2019</td>
+               <td>
+                  <button style="background: #39c92c">Draft</button>
+                  <button style="background: #2c36c9">Publish</button>
+                  <button style="background: #bdb10d">Edit</button>
+                  <button style="background: #c92c2c">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>Another simple title</td>
+               <td>19th May, 2019</td>
+               <td>
+                  <button style="background: #39c92c">Draft</button>
+                  <button style="background: #2c36c9">Publish</button>
+                  <button style="background: #bdb10d">Edit</button>
+                  <button style="background: #c92c2c">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>A random post title and other posts</td>
+               <td>19th May, 2019</td>
+               <td>
+                  <button style="background: #39c92c">Draft</button>
+                  <button style="background: #2c36c9">Publish</button>
+                  <button style="background: #bdb10d">Edit</button>
+                  <button style="background: #c92c2c">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>A random post</td>
+               <td>19th May, 2019</td>
+               <td>
+                  <button style="background: #39c92c">Draft</button>
+                  <button style="background: #2c36c9">Publish</button>
+                  <button style="background: #bdb10d">Edit</button>
+                  <button style="background: #c92c2c">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>Another simple title</td>
+               <td>19th May, 2019</td>
+               <td>
+                  <button style="background: #39c92c">Draft</button>
+                  <button style="background: #2c36c9">Publish</button>
+                  <button style="background: #bdb10d">Edit</button>
+                  <button style="background: #c92c2c">Delete</button>
+               </td>
+            </tr>
+         </table>
+      </div>
+
    </div>
 </body>
 
